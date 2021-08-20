@@ -113,3 +113,54 @@
 
 }
 
+/* Css de administrar productos */
+.sidebarAdmmin {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebarAdmmin a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebarAdmmin a.active {
+  background-color: #9c1e72;
+  color: white;
+}
+
+.sidebarAdmmin a:hover:not(.active) {
+  background-color: rgb(145, 134, 134);
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebarAdmmin {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebarAdmmin a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebarAdmmin a {
+    text-align: center;
+    float: none;
+  }
+}
+
