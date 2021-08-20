@@ -117,7 +117,7 @@
 .sidebarAdmmin {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 300px;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -132,18 +132,18 @@
 }
  
 .sidebarAdmmin a.active {
-  background-color: #9c1e72;
+  background-color: #135c8d;
   color: white;
 }
 
 .sidebarAdmmin a:hover:not(.active) {
-  background-color: rgb(145, 134, 134);
+  background-color: rgb(121, 100, 100);
   color: white;
 }
 
 div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
+  margin-left: 300px;
+  padding: 1px 5px;
   height: 1000px;
 }
 
@@ -163,4 +163,5 @@ div.content {
     float: none;
   }
 }
+
 

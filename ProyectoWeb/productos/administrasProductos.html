@@ -32,22 +32,22 @@
             <a class="active col-10" href="#home">Home</a>
         </div>
 
-
-        <a href="#productos">Productos</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#usuarios">Usuarios</a>
+        <div width="100%" class=" row" role="group"  id="radios">
+            <input  type="radio" class="btn-check col-12" name="btnradio" id="radio1" value="option1" autocomplete="off" checked>
+            <label  class="btn btn-outline-primary col-12" for="radio1">Productos</label>
+          
+            <input  type="radio" class="btn-check col-12" name="btnradio" id="radio2" value="option2" autocomplete="off">
+            <label  class="btn btn-outline-primary col-12" for="radio2">Servicios</label>
+          
+            <input  type="radio" class="btn-check col-12" name="btnradio" id="radio3" value="option3" autocomplete="off">
+            <label  class="btn btn-outline-primary col-12" for="radio3">Usuarios</label>
+          </div>
     </div>
 
     <div class="content">
         <section id="productos" class="">
-
-        </section>
-
-        <section id="servicios" class="">
-
-        </section>
-
-        <section id="usuarios" class="">
+            
+        <!-- Se genera con js -->
 
         </section>
     </div>
@@ -56,6 +56,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <script src="../js/appAdmin.js"></script>
 
 </body>
 

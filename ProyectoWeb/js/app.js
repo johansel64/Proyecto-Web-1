@@ -29,6 +29,7 @@ function agregarProducto(e){
     
     if(e.target.classList.contains('agregar-carrito')){
         e.preventDefault();
+ 
         const productoSeleccionado = e.target.parentElement.parentElement;
         leerDatosProducto(productoSeleccionado);
     }else if(e.target.classList.contains('infoProducto')){
@@ -38,6 +39,7 @@ function agregarProducto(e){
         
     };
 };
+
 
 function verInfoDelProducto(producto){
     
